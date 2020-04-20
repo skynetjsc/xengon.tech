@@ -1,0 +1,146 @@
+{
+  "name": "XeNgon",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "test:update": "jest -u",
+    "test:coverage": "jest --coverage",
+    "run:ios": "react-native run-ios",
+    "run:android": "react-native run-android",
+    "lint": "./node_modules/eslint/bin/eslint.js src",
+    "lint:fix": "./node_modules/eslint/bin/eslint.js src --fix",
+    "flow": "./node_modules/flow-bin/cli.js",
+    "e2e:build": "detox build --configuration ios.sim.debug",
+    "e2e:test": "detox test --configuration ios.sim.debug"
+  },
+  "dependencies": {
+    "accordion-collapse-react-native": "^0.2.8",
+    "axios": "^0.19.2",
+    "global": "^4.4.0",
+    "i18n-js": "^3.2.1",
+    "jetifier": "^1.6.5",
+    "lodash": "^4.17.13",
+    "moment": "^2.24.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-app-intro-slider": "^3.0.0",
+    "react-native-calendars": "^1.212.0",
+    "react-native-dash": "^0.0.11",
+    "react-native-drop-down-item": "https://github.com/beobungbu/react-native-drop-down-item.git#083dc75f1f77547be892e3db209203d40de29182",
+    "react-native-elements": "^1.2.7",
+    "react-native-fast-image": "^8.1.2",
+    "react-native-gesture-handler": "^1.6.0",
+    "react-native-gifted-chat": "^0.11.3",
+<<<<<<< Updated upstream
+    "react-native-google-places-autocomplete": "1.3.9",
+=======
+    "react-native-google-places-autocomplete": "^1.4.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+>>>>>>> Stashed changes
+    "react-native-lightbox": "^0.8.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-localize": "^1.3.1",
+    "react-native-maps": "^0.26.1",
+    "react-native-modal": "^9.0.0",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-modal-dropdown": "0.7.0",
+    "react-native-paper": "^3.1.1",
+    "react-native-permissions": "^2.0.9",
+    "react-native-ratings": "^6.5.0",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-screens": "^2.2.0",
+    "react-native-size-matters": "^0.3.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^11.0.1",
+    "react-native-tiny-toast": "^1.0.7",
+    "react-native-ui-lib": "^3.39.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-youtube": "^2.0.0",
+    "react-navigation": "^3.3.2",
+    "react-navigation-header-buttons": "^2.1.2",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "react-redux": "^6.0.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "rn-placeholder": "^3.0.0",
+    "victory-native": "^31.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "danger": "^7.0.2",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.105.0",
+    "jest": "^24.1.0",
+    "jsdom": "13.0.0",
+    "jsdom-global": "3.0.2",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "plop": "^2.2.0",
+    "prettier": "^1.16.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.6.3",
+    "react-test-renderer": "16.8.1",
+    "sinon": "^7.1.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!android/**",
+      "!ios/**",
+      "!assets/**"
+    ],
+    "coverageDirectory": "jest_coverage",
+    "setupFiles": [
+      "./jest-setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/e2e/"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "detox": {
+    "configurations": {
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/ReactNativeStarter.app",
+        "build": "xcodebuild -UseModernBuildSystem=NO -project ios/ReactNativeStarter.xcodeproj -scheme ReactNativeStarter -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone XS"
+      },
+      "ios.sim.release": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/ReactNativeStarter.app",
+        "build": "xcodebuild -UseModernBuildSystem=NO -project ios/ReactNativeStarter.xcodeproj -scheme ReactNativeStarter -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 7"
+      }
+    },
+    "test-runner": "jest"
+  }
+}

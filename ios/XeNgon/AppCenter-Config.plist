@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   AppCenter-Config.plist
+   XeNgon
+
+   Created by Lan Tran Duc on 3/18/20.
+   Copyright (c) 2020 Facebook. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+    <key>AppSecret</key>
+    <string>a43ce621-fd36-4cf9-812e-61bf5cbc9042</string>
+    </dict>
+</plist>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Xe Ngon</string>
+    <string name="logo_of_xe_ngon">logo of Xe Ngon</string>
+    <string name="made_by_vietnam">Made By Vietnam</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+	<string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">aA78jxmCP0RywQftj9JP46Np4q7qmyWOgpw-u</string>
+    <string name="CodePushPublicKey">-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs2AHq/k+fdr8hCFynJK/
+1cwOPXgLgthGI3trqg+shOHEOAiqa8W9eWCgBCKuxKti3sxy4wFb035zkGmb2eio
+oZA7aqItNvrQo0Yoi2mEKp+ULilJzxR9JLv7DE68bBvlRyyy0pb61kM1wKkYwV+2
+mMpmiLnBsHcRflppOm4pAXK3MwodjZnM5wJaA4w2al3S14Ti/xPZ+SL8qqxPaGQv
+nR4Vbu6A/t6F/a5kzRbl9DTfRNB7ZTx2HfZWWb7KpybsMmx8hCuhFTuEelXxyYjw
+ST2KuxydomNFir3jF4daT1CmiLU/37brKF2yDICX3Y6nxwz6jg5zLDznzYz6QP7Q
+QwIDAQAB
+-----END PUBLIC KEY-----</string>
+</resources>

@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "675547859775",
+    "firebase_url": "https://xengon-tech.firebaseio.com",
+    "project_id": "xengon-tech",
+    "storage_bucket": "xengon-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675547859775:android:25a0b82fe2e45c5c33618a",
+        "android_client_info": {
+          "package_name": "com.xengon.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675547859775-mjldpmrv5kfbm3ivfrfm6fpkeht8nn9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORHnn_gu0BYd26D0VOWf_9N1OuaMAlPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675547859775-mjldpmrv5kfbm3ivfrfm6fpkeht8nn9u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675547859775-j9e051pspsk02qck0is1la5hsvgmdc67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xengon.mobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675547859775:android:06a87304c94af8be33618a",
+        "android_client_info": {
+          "package_name": "com.xengon.mobile.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675547859775-2045gh5don80v3gf8h11jsjuh37dcgka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xengon.mobile.android",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "675547859775-mjldpmrv5kfbm3ivfrfm6fpkeht8nn9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORHnn_gu0BYd26D0VOWf_9N1OuaMAlPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675547859775-mjldpmrv5kfbm3ivfrfm6fpkeht8nn9u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675547859775-j9e051pspsk02qck0is1la5hsvgmdc67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xengon.mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
